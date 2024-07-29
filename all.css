@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: "Bruno Ace SC", sans-serif;
+    line-height: 1.5;
+}
+
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+.navbar-bg{
+    background-color: black;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul li a{
+    display: block;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    text-decoration: none;
+    color: white;
+}
+
+.intro-bg{
+    background-color: black;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.intro-content{
+    color: white;
+    font-size: 64px;
+}
+.name{
+    font-size: 128px;
+    color: #00FFA3;
+}
+.contact-btn{
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    max-width: 185px;
+    border-radius: 100px;
+    display: flex;
+}
+.contact-btn div{
+    font-size: 16px;
+}
